@@ -1,0 +1,26 @@
+.container-fluid{
+    padding: 7% 5%;
+    align-content: center;
+    background-image: url("../images/background_1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header-box{
+    text-align: center;
+}
+
+.fa-user-circle{
+    color: #FFC107;
+}
+
+.button_{
+    margin-top: 180px;
+}
+
+.login-dark {
+    background: linear-gradient(145deg, #575b5d, #252b2d);
+}
+body {
+    font-size: 16px;
+}

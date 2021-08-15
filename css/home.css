@@ -1,0 +1,36 @@
+body{
+    background-image: linear-gradient(to right, rgba(165, 221, 247, 0), rgb(165, 221, 247,1));
+}
+
+#home{
+    padding: 15% 7%;
+}
+
+.card{
+    width: 380px;
+    height: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.add-card:active, .view-card:active, .update-card:active {
+    background: #ffffff;
+    -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+       -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+            box-shadow: inset 0px 0px 5px #c1c1c1;
+     outline: none;
+  }
+
+.pointer{
+    cursor: pointer;
+}
+
+.fas{
+    padding-top: 14%;
+    color: rgb(84, 84, 85);
+}
+
+.card-title{
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(73, 70, 70);
+}
