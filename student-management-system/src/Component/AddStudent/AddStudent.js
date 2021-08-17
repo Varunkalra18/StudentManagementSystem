@@ -26,7 +26,7 @@ function AddStudent() {
               <div className="form-group">
                 <div className="row personal-info-row">
                   <div className="form-group col-md-6">
-                    <label for="first_name" className="col-form-label">
+                    <label htmlFor="first_name" className="col-form-label">
                       First Name
                     </label>
                     <input
@@ -37,7 +37,7 @@ function AddStudent() {
                     />
                   </div>
                   <div className="form-group col-md-6">
-                    <label for="last_name" className="col-form-label">
+                    <label htmlFor="last_name" className="col-form-label">
                       Last Name
                     </label>
                     <input
@@ -50,7 +50,7 @@ function AddStudent() {
                 </div>
                 <div className="row personal-info-row">
                   <div className="form-group col-md-4">
-                    <label for="regs_id" className="col-form-label">
+                    <label htmlFor="regs_id" className="col-form-label">
                       Registration ID
                     </label>
                     <input
@@ -61,7 +61,7 @@ function AddStudent() {
                     />
                   </div>
                   <div className="form-group col-md-4">
-                    <label for="DOB" className="col-form-label">
+                    <label htmlFor="DOB" className="col-form-label">
                       Date of Birth
                     </label>
                     <input
@@ -72,11 +72,11 @@ function AddStudent() {
                     />
                   </div>
                   <div className="col-md-4">
-                    <label for="gender" className="col-form-label">
+                    <label htmlFor="gender" className="col-form-label">
                       Gender
                     </label>
                     <select className="form-select" required>
-                      <option value="" disabled selected hidden>
+                      <option value="" disabled defaultValue hidden>
                         Choose Gender...
                       </option>
                       <option value="1">Male</option>
@@ -87,7 +87,7 @@ function AddStudent() {
                 </div>
                 <div className="row personal-info-row">
                   <div className="form-group col-md-6">
-                    <label for="email" className="col-form-label">
+                    <label htmlFor="email" className="col-form-label">
                       Email
                     </label>
                     <input
@@ -99,7 +99,7 @@ function AddStudent() {
                     />
                   </div>
                   <div className="form-group col-md-6">
-                    <label for="tel" className="col-form-label">
+                    <label htmlFor="tel" className="col-form-label">
                       Phone number
                     </label>
                     <input
@@ -124,7 +124,7 @@ function AddStudent() {
                 <div className="form-group">
                   <div className="row address-row">
                     <div className="form-group">
-                      <label for="address" className="col-form-label">
+                      <label htmlFor="address" className="col-form-label">
                         Address
                       </label>
                       <input
@@ -137,7 +137,7 @@ function AddStudent() {
                   </div>
                   <div className="row address-row">
                     <div className="form-group col-md-6">
-                      <label for="city_name" className="col-form-label">
+                      <label htmlFor="city_name" className="col-form-label">
                         City
                       </label>
                       <input
@@ -148,7 +148,7 @@ function AddStudent() {
                       />
                     </div>
                     <div className="form-group col-md-6">
-                      <label for="postal_code" className="col-form-label">
+                      <label htmlFor="postal_code" className="col-form-label">
                         Postal Code
                       </label>
                       <input
@@ -161,7 +161,7 @@ function AddStudent() {
                   </div>
                   <div className="row address-row">
                     <div className="form-group col-md-6">
-                      <label for="state" className="col-form-label">
+                      <label htmlFor="state" className="col-form-label">
                         State
                       </label>
                       <input
@@ -172,7 +172,7 @@ function AddStudent() {
                       />
                     </div>
                     <div className="form-group col-md-6">
-                      <label for="country" className="col-form-label">
+                      <label htmlFor="country" className="col-form-label">
                         Country
                       </label>
                       <input
@@ -194,11 +194,11 @@ function AddStudent() {
                 <div className="form-group">
                   <div className="row course-row">
                     <div className="form-group">
-                      <label for="degree" className="col-form-label">
+                      <label htmlFor="degree" className="col-form-label">
                         Degree
                       </label>
                       <select className="form-select" required>
-                        <option value="" disabled selected hidden>
+                        <option value="" disabled defaultValue hidden>
                           Select Degree...
                         </option>
                         <option value="1">Associate</option>
@@ -210,11 +210,11 @@ function AddStudent() {
                   </div>
                   <div className="row course-row">
                     <div className="form-group">
-                      <label for="Program" className="col-form-label">
+                      <label htmlFor="Program" className="col-form-label">
                         Program
                       </label>
                       <select className="form-select" required>
-                        <option value="" disabled selected hidden>
+                        <option value="" disabled defaultValue hidden>
                           Select Program...
                         </option>
                         <option value="1">Bachelors in Technology</option>
@@ -241,11 +241,11 @@ function AddStudent() {
                   </div>
                   <div className="row course-row">
                     <div className="form-group">
-                      <label for="branch" className="col-form-label">
+                      <label htmlFor="branch" className="col-form-label">
                         Branch
                       </label>
                       <select className="form-select" required>
-                        <option value="" disabled selected hidden>
+                        <option value="" disabled defaultValue hidden>
                           Select Branch...
                         </option>
                         <option value="1">Computer Science Engineering</option>

@@ -360,7 +360,7 @@ function UpdateProfile() {
                   className="row form-row-update-profile"
                   style={{paddingTop: '5%'}}
                 >
-                  <button type="button" className="btn btn-primary btn-lg">
+                  <button type="submit" className="btn btn-primary btn-lg">
                     Save
                   </button>
                 </div>

@@ -1,6 +1,6 @@
 import "./App.css";
 import {
-  BrowserRouter as Router,
+  BrowserRouter,
   Switch,
   Route,
   Redirect
@@ -15,18 +15,18 @@ import ViewStudentinfo from "./Component/ViewStudentinfo/ViewStudentinfo";
 
 function App() {
   return (
-    <Router>
+    <BrowserRouter>
       <Switch>
         <Route path="/" exact component={Login} />
         <Route path="/login" exact component={() => <Redirect to="/" />} />
         <Route path="/addstudent" exact component={AddStudent} />
         <Route path="/home" exact component={Home} />
         <Route path="/updateprofile" exact component={UpdateProfile} />
-        <Route path="/updatestuprofile" exact component={UpdateStudentInfo} />
+        <Route path="/updatestudprofile" exact component={UpdateStudentInfo} />
         <Route path="/viewprofile" exact component={ViewProfile} />
-        <Route path="/viewstuprofile" exact component={ViewStudentinfo} />
+        <Route path="/viewstudprofile" exact component={ViewStudentinfo} />
       </Switch>
-    </Router>
+    </BrowserRouter>
   );
 }
 

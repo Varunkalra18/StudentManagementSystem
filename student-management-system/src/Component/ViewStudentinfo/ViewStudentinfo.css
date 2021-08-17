@@ -1,0 +1,32 @@
+.body-view-info{
+    background-image: linear-gradient(to right, rgba(165, 221, 247, 0), rgb(165, 221, 247,1));
+}
+
+.card-view-info{
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 36px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-body-view-info{
+    background-color: #195769;
+    color: white;
+}
+
+.container-fluid-view-info{
+    padding-top: 4%;
+    
+}
+
+.table-view-info{
+    font-size: 16px;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 100%;
+}
+
+.td-view-info {
+    width: 2px;
+}
