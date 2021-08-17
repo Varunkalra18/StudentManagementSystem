@@ -1,4 +1,4 @@
-.container-fluid{
+.container-fluid-index{
     padding: 7% 5%;
     align-content: center;
     background-image: url("../images/background_1.jpg");
@@ -6,21 +6,21 @@
     background-repeat: no-repeat;
 }
 
-.header-box{
+.header-box-index{
     text-align: center;
 }
 
-.fa-user-circle{
+.fa-user-circle-index{
     color: #FFC107;
 }
 
-.button_{
+.button-index{
     margin-top: 180px;
 }
 
-.login-dark {
+.login-dark-index {
     background: linear-gradient(145deg, #575b5d, #252b2d);
 }
-body {
+.body-index{
     font-size: 16px;
 }

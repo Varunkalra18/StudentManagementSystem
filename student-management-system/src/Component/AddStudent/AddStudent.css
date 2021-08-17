@@ -1,0 +1,43 @@
+.body-add {
+    background-image: linear-gradient(to right, rgba(165, 221, 247, 0), rgb(165, 221, 247,1));
+}
+
+.card-add {
+    margin-top: 1em;
+}
+
+/* IMG displaying */
+.person-card {
+    margin-top: 5em;
+    padding-top: 5em;
+}
+
+.person-card .card-title-add{
+    text-align: center;
+}
+.person-card .person-img{
+    width: 10em;
+    position: absolute;
+    top: -5em;
+    left: 50%;
+    margin-left: -5em;
+    border-radius: 100%;
+    overflow: hidden;
+    background-color: white;
+}
+
+select:invalid{
+    color: gray;
+}
+
+.personal-info-row{
+    padding-bottom: 1.5%;
+}
+
+.address-row{
+    padding-bottom: 1.5%;
+}
+
+.course-row{
+    padding-bottom: 1.5%;
+}

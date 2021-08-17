@@ -1,0 +1,36 @@
+body{
+    background-image: linear-gradient(to right, rgba(165, 221, 247, 0), rgb(165, 221, 247,1));
+}
+
+.card{
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 36px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.cardBody{
+    background-color: #195769;
+    color: white;
+}
+
+.containerFluid{
+    padding-top: 4%;
+    padding-left: 80%;
+    padding-right:80%;
+}
+
+.table{
+    font-size: 16px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.td{
+    width: 10px;
+}
+
+.button{
+    margin-left:5px;
+}

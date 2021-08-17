@@ -1,8 +1,8 @@
-body {
+.body-add {
     background-image: linear-gradient(to right, rgba(165, 221, 247, 0), rgb(165, 221, 247,1));
 }
 
-.card {
+.card-add {
     margin-top: 1em;
 }
 
@@ -12,7 +12,7 @@ body {
     padding-top: 5em;
 }
 
-.person-card .card-title{
+.person-card .card-title-add{
     text-align: center;
 }
 .person-card .person-img{
