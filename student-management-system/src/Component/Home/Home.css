@@ -1,4 +1,4 @@
-body{
+.body-home{
     background-image: linear-gradient(to right, rgba(165, 221, 247, 0), rgb(165, 221, 247,1));
 }
 
@@ -6,7 +6,7 @@ body{
     padding: 15% 7%;
 }
 
-.card{
+.card-home{
     width: 380px;
     height: 250px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -20,16 +20,16 @@ body{
      outline: none;
   }
 
-.pointer{
+.pointer-home{
     cursor: pointer;
 }
 
-.fas{
+.fas-home{
     padding-top: 14%;
     color: rgb(84, 84, 85);
 }
 
-.card-title{
+.card-title-home{
     font-size: 24px;
     font-weight: bold;
     color: rgb(73, 70, 70);

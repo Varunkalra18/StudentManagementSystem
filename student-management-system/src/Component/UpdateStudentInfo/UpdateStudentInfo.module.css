@@ -1,8 +1,8 @@
-body{
+.body-view-info{
     background-image: linear-gradient(to right, rgba(165, 221, 247, 0), rgb(165, 221, 247,1));
 }
 
-.card{
+.card-view-info{
     margin-top: 30px;
     margin-left: 40px;
     margin-right: 40px;
@@ -10,24 +10,24 @@ body{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.cardBody{
+.card-body-view-info{
     background-color: #195769;
     color: white;
 }
 
-.containerFluid{
+.container-fluid-view-info{
     padding-top: 4%;
     padding-left: 80%;
     padding-right:80%;
 }
 
-.table{
+.table-view-info{
     font-size: 16px;
     margin-left: 50px;
     margin-right: 50px;
 }
 
-.td{
+.td-view-info{
     width: 10px;
 }
 
