@@ -3,15 +3,16 @@ import "./AddStudent.css";
 
 function AddStudent() {
   return (
-    <div className="container" style={{marginTop: '6em'}}>
+    <div className="container" style={{ marginTop: "6em" }}>
       <form>
-        <div className="row" style={{padding:'0.8rem'}}>
+        <div className="row" style={{ padding: "0.8rem" }}>
           <div className="card person-card card-add">
             <div className="card-body">
               <img
                 id="img_icon"
                 className="person-img"
                 src="https://visualpharm.com/assets/217/Life%20Cycle-595b40b75ba036ed117d9ef0.svg"
+                alt="profile"
               />
               <h2 id="form_heading" className="card-title-add">
                 Student Registration
@@ -117,7 +118,7 @@ function AddStudent() {
           </div>
         </div>
         <div className="row">
-          <div className="col-md-6" style={{padding: '0.5rem'}}>
+          <div className="col-md-6" style={{ padding: "0.5rem" }}>
             <div className="card">
               <div className="card-body">
                 <h2 className="card-title">Address Details</h2>
@@ -187,7 +188,7 @@ function AddStudent() {
               </div>
             </div>
           </div>
-          <div className="col-md-6" style={{padding: '0.5rem'}}>
+          <div className="col-md-6" style={{ padding: "0.5rem" }}>
             <div className="card">
               <div className="card-body">
                 <h2 className="card-title">Course Details</h2>
@@ -267,7 +268,7 @@ function AddStudent() {
             </div>
           </div>
         </div>
-        <div style={{marginTop: '1em', marginBottom: '2em'}}>
+        <div style={{ marginTop: "1em", marginBottom: "2em" }}>
           <button type="button" className="btn btn-primary btn-lg btn-block">
             Register
           </button>
